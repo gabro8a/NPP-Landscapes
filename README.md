@@ -12,7 +12,7 @@ The Number Partitioning Problem (NPP) is defined as follows. Given a set of $N$ 
 find a partition $A \cup B = L$ such that the partition difference $D$ is minimised.
 $D = \left| \sum_{r_i \in A} r_i - \sum_{r_i \in B} r_i \right|$
 
-A partition is perfect if $D = 0$
+A partition is perfect if $D = 0$.
 
 The decision version of the NPP belongs to the class of NP-complete problems which appear to require a super-polynomial amount of computation time in the instance input size. NP-hard optimisation problems are at least as hard as the corresponding decision problems.
  
