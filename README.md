@@ -6,13 +6,11 @@ This repo contains data and code related to the paper:
 G. Ochoa, N. Veerapen, F. Daolio, M. Tomassini (2017) [Understanding Phase Transitions with Local Optima Networks: Number Partitioning as a Case Study](https://link.springer.com/chapter/10.1007/978-3-319-55453-2_16).  European Conference on Evolutionary Computation in Combinatorial Optimization, EvoCOP 2017.  LNCS vol. 10197, Springer pp. 233–248.   [[PDF](assets/Understanding_Phase_Transitions_with_LONS_NPP.pdf)]
 
 
-## The Number Partitioning Number (NPP)
+## The Number Partitioning Problem (NPP)
 
 The Number Partitioning Problem (NPP) is defined as follows. Given a set of $N$ positive numbers $L=\{r_1,r_2, \ldots, r_N\}$,
 find a partition $A \cup B = L$ such that the partition difference $D$ is minimised.
-$$
-D = \left| \sum_{r_i \in A} r_i - \sum_{r_i \in B} r_i \right|
-$$
+$D = \left| \sum_{r_i \in A} r_i - \sum_{r_i \in B} r_i \right|$
 
 A partition is perfect if $D = 0$
 
