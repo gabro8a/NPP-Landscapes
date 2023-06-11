@@ -1,5 +1,5 @@
 # NPP-Landscapes
-Fitness landscapes and local optima networks (LONs) Number Partitioning Problem (NPP).
+Fitness landscapes and local optima networks (LONs) fot the  Number Partitioning Problem (NPP).
 
 This repo contains data and code related to the paper:
 
@@ -61,7 +61,7 @@ There are two R scripts as described below.
     c. Do this analyses reflect a difference between the easy ($k=0.4$) and the hard instance ($k=1.0$)?
 2. Consider the fully enumerated local optima network data in the [data/lon/](data/lon) folder:
     a. Run the [lon_create_full.R](scripts/lon_create_full.R) to construct the LON models
-    b. Run the[lon_plot_full.R](scripts/lon_plot_full.R) to visualise the network models. 
+    b. Run the [lon_plot_full.R](scripts/lon_plot_full.R) to visualise the network models. 
 3. The data provided corresponds to fully enumerated LONs. However, for larger landscapes, sampling is required to construct LON models.
     a. Run the Python code provided in the 'sampling' folder to generate data to construct sampled LON models
     b. Write an R script to construct the LON models
