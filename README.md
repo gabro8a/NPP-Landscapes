@@ -56,13 +56,14 @@ There are two R scripts as described below.
 
 ## Suggested Exercises
 1. Consider the search space of two NPP instances provided in the [data/fitness/](data/fitness/) folder and conduct:
-    a. A density of state (DOS) analysis 
-    b. A Fitness distance (FDC) analysis
-    c. Do this analyses reflect a difference between the easy ($k=0.4$) and the hard instance ($k=1.0$)?
+    1. A density of state (DOS) analysis 
+    2. A fitness distance (FDC) analysis
+    3. A visualisation of the genotypes of the best and worst 5% solutions.
+    4. Do these analyses reflect a difference between the easy ($k=0.4$) and the hard instance ($k=1.0$)?
 2. Consider the fully enumerated local optima network data in the [data/lon/](data/lon) folder:
-    a. Run the [lon_create_full.R](scripts/lon_create_full.R) to construct the LON models
-    b. Run the [lon_plot_full.R](scripts/lon_plot_full.R) to visualise the network models. 
+    1. Run the [lon_create_full.R](scripts/lon_create_full.R) to construct the LON models
+    2. Run the [lon_plot_full.R](scripts/lon_plot_full.R) to visualise the network models. 
 3. The data provided corresponds to fully enumerated LONs. However, for larger landscapes, sampling is required to construct LON models.
-    a. Run the Python code provided in the 'sampling' folder to generate data to construct sampled LON models
-    b. Write an R script to construct the LON models
-    c. Write an R script to visualise the sampled LON models
+    1. Run the Python code provided in the 'sampling' folder to generate data to construct sampled LON models
+    2. Write an R script to construct the LON models
+    3. Write an R script to visualise the sampled LON models
