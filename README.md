@@ -52,12 +52,12 @@ Contains Python code files:
 ### Scripts
 There are two R scripts as described below. 
 * [lon_create_full.R](scripts/lon_create_full.R) Reads zip files with nodes and edges(from the [lon_full](data/lon_full/) folder) and constructs local optima networks graph objects, including the standard LON model, the monotonic model (MLON) and the compressed model (CMLON). The graph models are saved within .RData files in a directory called "lons_full/". You need to create a local folder named "lons_full/" before running this script.
-* [lon_plot_full.R](scripts/lon_plot_full.R) Reads graph objects (from .RData files in the "lons_full/" folder) for and produces network plots in 2D and 3D. 
+* [lon_plot_full.R](scripts/lon_plot_full.R) Reads graph objects (from .RData files in the "lons_full/" folder) for and produces network plots in 2D and 3D. It also computes and prints several network metrics. If you have issues with the 3D plots, you can comment this part of the code and produce only the 2D version of the plots.
 
 ## Suggested Exercises
 1. Consider the search space of two NPP instances provided in the [data/fitness/](data/fitness/) folder and conduct:
-    1. A density of state (DOS) analysis 
-    2. A fitness distance (FDC) analysis
+    1. A density of state (DOS) analysis. 
+    2. A fitness distance (FDC) analysis.
     3. A visualisation of the genotypes of the best and worst 5% solutions.
     4. Do these analyses reflect a difference between the easy ($k=0.4$) and the hard instance ($k=1.0$)?
 2. Consider the fully enumerated local optima network data in the [data/lon/](data/lon) folder:
@@ -65,5 +65,5 @@ There are two R scripts as described below.
     2. Run the [lon_plot_full.R](scripts/lon_plot_full.R) to visualise the network models. 
 3. The data provided corresponds to fully enumerated LONs. However, for larger landscapes, sampling is required to construct LON models.
     1. Run the Python code provided in the 'sampling' folder to generate data to construct sampled LON models
-    2. Write an R script to construct the LON models
-    3. Write an R script to visualise the sampled LON models
+    2. Write an R script to construct the LON models from sampled data.
+    3. Write an R script to visualise the sampled LON models.
